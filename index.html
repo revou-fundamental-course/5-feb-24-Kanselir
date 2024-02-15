@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pengaturan suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Pengukur <span>Suhu</span>.</a>
+
+        <div class="navbar-link">
+            <a href="">lihat hasil</a>
+            <a href="">lihat rumus</a>
+        </div>
+
+    </nav>
+    <br>
+    <br>
+    <br>
+    <h1></h1>
+    <select id="inputUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+        <option value="reamur">Reamur</option>
+    </select>
+    <input type="number" id="inputTemperature" placeholder="Masukkan suhu">
+    <button onclick="convertTemperature()">Konversi</button>
+    <p id="result"></p>
+
+</body>
+</html>
